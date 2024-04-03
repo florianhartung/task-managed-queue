@@ -1,0 +1,10 @@
+[package]
+name = "task_managed_resource"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.37.0", features = ["sync"] }
+
+[dev-dependencies]
+tokio = { version = "1.37.0", features = ["full"] }
